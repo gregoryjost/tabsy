@@ -1,0 +1,12 @@
+# Comments start with "#", blank lines ignored.
+
+http://37.media.tumblr.com/tumblr_ma53ul4GZY1rgpzseo1_1280.gif, Description 1
+http://24.media.tumblr.com/8590439194dd2615c85c83a4a46be726/tumblr_muesn3BS4M1rgpzseo1_1280.gif, Description 2
+http://24.media.tumblr.com/a2e8f2c90f10e463ae2c86df08e9f586/tumblr_mufd5dTduO1rgpzseo1_r1_1280.gif, Description 3
+http://37.media.tumblr.com/4c8fef750fd05c2cf726132f74d5a82a/tumblr_muesa7kLsY1rgpzseo1_1280.gif, Description 4
+http://37.media.tumblr.com/tumblr_ma53ul4GZY1rgpzseo1_1280.gif, Description 5
+http://24.media.tumblr.com/36dfa100427e94d51d96d3382e023e94/tumblr_n48pluPMFV1rgpzseo1_1280.gif, Description 6
+http://37.media.tumblr.com/5bfe3651bc19ff8620831a41bd60c1a0/tumblr_n2sr5yQgR81rgpzseo1_r2_1280.gif, Description 7
+http://31.media.tumblr.com/d27d01901530cd2d791f9d1b16d375b6/tumblr_n4rp0cHVGG1tx30c0o1_1280.gif, Description 8
+http://24.media.tumblr.com/42e2d745bed420c3ea1cac7e43aeedff/tumblr_n4roywPwA01tx30c0o1_1280.gif, Description 9
+http://24.media.tumblr.com/d8848757a01acfbb106b069e31243088/tumblr_n2eccv6Dev1rgpzseo1_r1_1280.gif, Description 10
