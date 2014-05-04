@@ -1,4 +1,4 @@
-BirthdayFox
+Tabsy
 ===========
 
-An add-on to celebrate Firefox's birthday!
+An artful experiment, in your tab!
