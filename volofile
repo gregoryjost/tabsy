@@ -1,0 +1,17 @@
+/*global define, console, process */
+
+'use strict';
+
+module.exports = {
+  deploy: {
+    run: function (d, v, namedArgs, appName) {
+      v.sequence([
+        ['cfx', 'xpi',
+          '--update-link', 'https://people.mozilla.com/~bwinton/BirthdayFox/birthdayfox.xpi',
+          '--update-url', 'https://people.mozilla.com/~bwinton/BirthdayFox/birthdayfox.update.rdf'],
+        [v, 'copyFile', 'birthdayfox.xpi', '/Volumes/people.mozilla.com/public_html/BirthdayFox/birthdayfox.xpi'],
+        [v, 'copyFile', 'birthdayfox.update.rdf', '/Volumes/people.mozilla.com/public_html/BirthdayFox/birthdayfox.update.rdf']
+      ], {useConsole: !namedArgs.quiet});
+    }
+  }
+};
