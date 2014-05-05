@@ -7,10 +7,10 @@ module.exports = {
     run: function (d, v, namedArgs, appName) {
       v.sequence([
         ['cfx', 'xpi',
-          '--update-link', 'https://people.mozilla.com/~bwinton/BirthdayFox/birthdayfox.xpi',
-          '--update-url', 'https://people.mozilla.com/~bwinton/BirthdayFox/birthdayfox.update.rdf'],
-        [v, 'copyFile', 'birthdayfox.xpi', '/Volumes/people.mozilla.com/public_html/BirthdayFox/birthdayfox.xpi'],
-        [v, 'copyFile', 'birthdayfox.update.rdf', '/Volumes/people.mozilla.com/public_html/BirthdayFox/birthdayfox.update.rdf']
+          '--update-link', 'https://raw.githubusercontent.com/gregoryjost/tabsy/master/tabsy.xpi',
+          '--update-url', 'https://raw.githubusercontent.com/gregoryjost/tabsy/master/tabsy.update.rdf'],
+        [v, 'copyFile', 'tabsy.xpi', 'https://raw.githubusercontent.com/gregoryjost/tabsy/master/tabsy.xpi'],
+        [v, 'copyFile', 'tabsy.update.rdf', 'https://raw.githubusercontent.com/gregoryjost/tabsy/master/tabsy.update.rdf']
       ], {useConsole: !namedArgs.quiet});
     }
   }
